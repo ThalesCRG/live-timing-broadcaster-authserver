@@ -2,7 +2,7 @@
 
 Authentication service for Live-Timing Broadcaster
 
-#Start
+## Start
 To start run 'npm install' to install dependencies. run 'npm run start' to start the server
 
 ## config
