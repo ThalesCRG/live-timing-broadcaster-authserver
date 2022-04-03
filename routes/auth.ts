@@ -52,6 +52,7 @@ router.post("/register", async (req: any, res: any) => {
     });
 
     const savedUser = await user.save();
+    res.status(201);
     res.send({ user: user._id });
   } catch (err) {
     res.status(400).send(err);
@@ -155,6 +156,7 @@ router.post("/config/save", async (req: any, res: any) => {
       currentUser.disabled = element.disabled;
       currentUser.save();
     });
+    res.status(200).send();
   } catch (e) {
     console.log(e);
 
