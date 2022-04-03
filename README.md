@@ -2,6 +2,9 @@
 
 Authentication service for Live-Timing Broadcaster
 
+#Start
+To start run 'npm install' to install dependencies. run 'npm run start' to start the server
+
 ## config
 use .env file as config like
 
